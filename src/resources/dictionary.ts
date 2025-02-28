@@ -14,6 +14,7 @@ const chinaExam: DictionaryResource[] = [
     languageCategory: 'en',
   },
 ]
+
 // 国际考试
 const internationalExam: DictionaryResource[] = [
   {
@@ -62,7 +63,7 @@ const internationalExam: DictionaryResource[] = [
   },
   {
     id: 'ERROR_2025_02_28_22_35_53',
-    name: '2025_02_28_22_35_53',
+    name: 'ERROR_2025_02_28_22_35_53',
     description: '综合测试',
     category: '国际考试',
     tags: ['IELTS'],
