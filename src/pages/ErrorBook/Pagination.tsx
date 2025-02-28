@@ -10,7 +10,7 @@ type IPaginationProps = {
   totalPages: number
 }
 
-export const ITEM_PER_PAGE = 20
+export const ITEM_PER_PAGE = 10000
 
 const Pagination: FC<IPaginationProps> = ({ className, page, setPage, totalPages }) => {
   const nextPage = useCallback(() => {

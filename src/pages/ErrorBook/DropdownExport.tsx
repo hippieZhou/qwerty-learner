@@ -17,12 +17,27 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords, paraphrases }) => {
     const minutes = String(date.getMinutes()).padStart(2, '0')
     const seconds = String(date.getSeconds()).padStart(2, '0')
 
-    return `${year}-${month}-${day} ${hours}-${minutes}-${seconds}`
+    return `${year}_${month}_${day}_${hours}_${minutes}_${seconds}`
   }
 
   const handleExport = (bookType: string) => {
-    const ExportData: Array<{ 单词: string; 释义: string; 错误次数: number; 词典: string }> = []
+    if (bookType === 'json') {
+      const jsonData: Array<{ name: string; trans: string[] }> = []
+      renderRecords.forEach((item: any) => {
+        const word = paraphrases.find((w: any) => w.name === item.word)
+        jsonData.push({
+          name: item.word,
+          trans: [word ? word.trans.join('；') : ''],
+        })
+      })
+      const jsonStr = JSON.stringify(jsonData, null, 2)
+      const jsonBlob = new Blob([jsonStr], { type: 'text/plain' })
+      saveAs(jsonBlob, `ERROR_${formatTimestamp(new Date())}.${bookType}`)
 
+      return
+    }
+
+    const ExportData: Array<{ 单词: string; 释义: string; 错误次数: number; 词典: string }> = []
     renderRecords.forEach((item: any) => {
       const word = paraphrases.find((w: any) => w.name === item.word)
       ExportData.push({
@@ -72,6 +87,12 @@ const DropdownExport: FC<DropdownProps> = ({ renderRecords, paraphrases }) => {
             onClick={() => handleExport('csv')}
           >
             .csv
+          </DropdownMenu.Item>
+          <DropdownMenu.Item
+            className="cursor-pointer rounded px-4 py-2 hover:bg-indigo-600 focus:bg-indigo-600 focus:outline-none"
+            onClick={() => handleExport('json')}
+          >
+            .json
           </DropdownMenu.Item>
         </DropdownMenu.Content>
       </DropdownMenu.Root>
