@@ -114,7 +114,7 @@ export function ErrorBook() {
               <span className="basis-6/12">释义</span>
               <HeadWrongNumber className="basis-1/12" sortType={sortType} setSortType={setSort} />
               <span className="basis-1/12">词典</span>
-              <DropdownExport renderRecords={renderRecords} paraphrases={paraphrases} />
+              <DropdownExport renderRecords={sortedRecords} paraphrases={paraphrases} />
             </div>
             <ScrollArea.Root className="flex-1 overflow-y-auto pt-5">
               <ScrollArea.Viewport className="h-full  ">
