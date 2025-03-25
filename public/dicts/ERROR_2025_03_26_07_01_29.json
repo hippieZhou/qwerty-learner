@@ -1,0 +1,986 @@
+[
+  {
+    "name": "musician",
+    "trans": [
+      "音乐家"
+    ]
+  },
+  {
+    "name": "biological clock",
+    "trans": [
+      "生物钟"
+    ]
+  },
+  {
+    "name": "cassette",
+    "trans": [
+      "录音带"
+    ]
+  },
+  {
+    "name": "manufacturing",
+    "trans": [
+      "制造"
+    ]
+  },
+  {
+    "name": "on the rack",
+    "trans": [
+      "在架子上"
+    ]
+  },
+  {
+    "name": "food pest",
+    "trans": [
+      "食物害虫"
+    ]
+  },
+  {
+    "name": "show off status",
+    "trans": [
+      "炫耀地位"
+    ]
+  },
+  {
+    "name": "coastline",
+    "trans": [
+      "海岸线"
+    ]
+  },
+  {
+    "name": "original",
+    "trans": [
+      "原版的"
+    ]
+  },
+  {
+    "name": "claw",
+    "trans": [
+      "爪子"
+    ]
+  },
+  {
+    "name": "food intake",
+    "trans": [
+      "食物摄入"
+    ]
+  },
+  {
+    "name": "date slip",
+    "trans": [
+      "期限"
+    ]
+  },
+  {
+    "name": "strong scent",
+    "trans": [
+      "很重的味道"
+    ]
+  },
+  {
+    "name": "coastal roads",
+    "trans": [
+      "沿海公路"
+    ]
+  },
+  {
+    "name": "ridiculous",
+    "trans": [
+      "荒谬的"
+    ]
+  },
+  {
+    "name": "cultural differences",
+    "trans": [
+      "文化差异"
+    ]
+  },
+  {
+    "name": "Russia",
+    "trans": [
+      "俄罗斯"
+    ]
+  },
+  {
+    "name": "obstacles",
+    "trans": [
+      "困难"
+    ]
+  },
+  {
+    "name": "guidelines",
+    "trans": [
+      "方针政策"
+    ]
+  },
+  {
+    "name": "occasion",
+    "trans": [
+      "场合；时机"
+    ]
+  },
+  {
+    "name": "magnet",
+    "trans": [
+      "磁铁"
+    ]
+  },
+  {
+    "name": "carpentry",
+    "trans": [
+      "木工活"
+    ]
+  },
+  {
+    "name": "photocopy office",
+    "trans": [
+      "影印室"
+    ]
+  },
+  {
+    "name": "trumpet",
+    "trans": [
+      "小号"
+    ]
+  },
+  {
+    "name": "meditation",
+    "trans": [
+      "冥想"
+    ]
+  },
+  {
+    "name": "frequent",
+    "trans": [
+      "经常的，频繁的"
+    ]
+  },
+  {
+    "name": "lack of soil",
+    "trans": [
+      "缺土"
+    ]
+  },
+  {
+    "name": "anniversary",
+    "trans": [
+      "周年"
+    ]
+  },
+  {
+    "name": "weaving blanket",
+    "trans": [
+      "编织毯子"
+    ]
+  },
+  {
+    "name": "coral reef",
+    "trans": [
+      "珊瑚礁"
+    ]
+  },
+  {
+    "name": "preferred occupation",
+    "trans": [
+      "首选职业"
+    ]
+  },
+  {
+    "name": "fertilisers",
+    "trans": [
+      "化肥"
+    ]
+  },
+  {
+    "name": "nutrients",
+    "trans": [
+      "营养素"
+    ]
+  },
+  {
+    "name": "meadow campsite",
+    "trans": [
+      "牧场野营地"
+    ]
+  },
+  {
+    "name": "shear the sheep",
+    "trans": [
+      "剪羊毛"
+    ]
+  },
+  {
+    "name": "sugar",
+    "trans": [
+      "糖"
+    ]
+  },
+  {
+    "name": "balloon",
+    "trans": [
+      "气球"
+    ]
+  },
+  {
+    "name": "composer",
+    "trans": [
+      "作曲家"
+    ]
+  },
+  {
+    "name": "disastrous",
+    "trans": [
+      "惨重的"
+    ]
+  },
+  {
+    "name": "lifespan",
+    "trans": [
+      "寿命"
+    ]
+  },
+  {
+    "name": "teaspoon",
+    "trans": [
+      "茶匙"
+    ]
+  },
+  {
+    "name": "round trip ticket",
+    "trans": [
+      "往返票"
+    ]
+  },
+  {
+    "name": "intimate",
+    "trans": [
+      "亲密的"
+    ]
+  },
+  {
+    "name": "colony",
+    "trans": [
+      "殖民地"
+    ]
+  },
+  {
+    "name": "recreation",
+    "trans": [
+      "消遣；娱乐"
+    ]
+  },
+  {
+    "name": "choices for facilities",
+    "trans": [
+      "设施选择"
+    ]
+  },
+  {
+    "name": "watermills",
+    "trans": [
+      "水车"
+    ]
+  },
+  {
+    "name": "simple memories",
+    "trans": [
+      "简单回忆"
+    ]
+  },
+  {
+    "name": "sedentary lifestyle",
+    "trans": [
+      "久坐的生活方式"
+    ]
+  },
+  {
+    "name": "flexible-time study",
+    "trans": [
+      "兼职学习"
+    ]
+  },
+  {
+    "name": "numeracy skill",
+    "trans": [
+      "计算能力"
+    ]
+  },
+  {
+    "name": "customs service",
+    "trans": [
+      "海关服务"
+    ]
+  },
+  {
+    "name": "saliva",
+    "trans": [
+      "唾液，口水"
+    ]
+  },
+  {
+    "name": "archaeology/archeology",
+    "trans": [
+      "考古学"
+    ]
+  },
+  {
+    "name": "kitchen utensils",
+    "trans": [
+      "厨房器皿"
+    ]
+  },
+  {
+    "name": "laser",
+    "trans": [
+      "激光"
+    ]
+  },
+  {
+    "name": "familiar with",
+    "trans": [
+      "熟悉"
+    ]
+  },
+  {
+    "name": "quotations",
+    "trans": [
+      "报价单"
+    ]
+  },
+  {
+    "name": "faulty",
+    "trans": [
+      "错误的"
+    ]
+  },
+  {
+    "name": "compulsory course",
+    "trans": [
+      "必修课"
+    ]
+  },
+  {
+    "name": "enquiry desk",
+    "trans": [
+      "问询台"
+    ]
+  },
+  {
+    "name": "exploration",
+    "trans": [
+      "探索"
+    ]
+  },
+  {
+    "name": "dominance",
+    "trans": [
+      "主导，占优势"
+    ]
+  },
+  {
+    "name": "souvenirs",
+    "trans": [
+      "纪念品"
+    ]
+  },
+  {
+    "name": "ardent",
+    "trans": [
+      "热烈的，激情的"
+    ]
+  },
+  {
+    "name": "miserable",
+    "trans": [
+      "痛苦的"
+    ]
+  },
+  {
+    "name": "fireplaces",
+    "trans": [
+      "壁炉"
+    ]
+  },
+  {
+    "name": "cuisine",
+    "trans": [
+      "饮食"
+    ]
+  },
+  {
+    "name": "candle",
+    "trans": [
+      "蜡烛"
+    ]
+  },
+  {
+    "name": "bike racks",
+    "trans": [
+      "自行车架"
+    ]
+  },
+  {
+    "name": "exercise one's muscles",
+    "trans": [
+      "锻炼肌肉"
+    ]
+  },
+  {
+    "name": "similar experiments",
+    "trans": [
+      "相似实验"
+    ]
+  },
+  {
+    "name": "impairment",
+    "trans": [
+      "损害"
+    ]
+  },
+  {
+    "name": "drop-off site",
+    "trans": [
+      "丢垃圾的地点"
+    ]
+  },
+  {
+    "name": "field system",
+    "trans": [
+      "土地系统"
+    ]
+  },
+  {
+    "name": "promenade",
+    "trans": [
+      "沿海步道"
+    ]
+  },
+  {
+    "name": "daytime temperature",
+    "trans": [
+      "日间温度"
+    ]
+  },
+  {
+    "name": "living expenses",
+    "trans": [
+      "生活费"
+    ]
+  },
+  {
+    "name": "reference stacks",
+    "trans": [
+      "书库"
+    ]
+  },
+  {
+    "name": "book loan",
+    "trans": [
+      "借书"
+    ]
+  },
+  {
+    "name": "current material",
+    "trans": [
+      "现有材料"
+    ]
+  },
+  {
+    "name": "affordable",
+    "trans": [
+      "支付得起的"
+    ]
+  },
+  {
+    "name": "transport service",
+    "trans": [
+      "运输服务"
+    ]
+  },
+  {
+    "name": "under-age children",
+    "trans": [
+      "未适龄儿童"
+    ]
+  },
+  {
+    "name": "pedestrian",
+    "trans": [
+      "行人"
+    ]
+  },
+  {
+    "name": "lost mails",
+    "trans": [
+      "丢失的邮件"
+    ]
+  },
+  {
+    "name": "parliament",
+    "trans": [
+      "议会"
+    ]
+  },
+  {
+    "name": "goat skin",
+    "trans": [
+      "山羊皮"
+    ]
+  },
+  {
+    "name": "large-scale housing",
+    "trans": [
+      "大规模住房"
+    ]
+  },
+  {
+    "name": "black swans",
+    "trans": [
+      "黑天鹅"
+    ]
+  },
+  {
+    "name": "sawdust",
+    "trans": [
+      "锯末"
+    ]
+  },
+  {
+    "name": "commerce",
+    "trans": [
+      "商业"
+    ]
+  },
+  {
+    "name": "stomach and heart",
+    "trans": [
+      "胃和心脏"
+    ]
+  },
+  {
+    "name": "miniature",
+    "trans": [
+      "缩微景观"
+    ]
+  },
+  {
+    "name": "nucleus",
+    "trans": [
+      "核"
+    ]
+  },
+  {
+    "name": "teaching syllabus",
+    "trans": [
+      "教学大纲"
+    ]
+  },
+  {
+    "name": "stereotypes",
+    "trans": [
+      "刻板印象"
+    ]
+  },
+  {
+    "name": "ribbons",
+    "trans": [
+      "色带，缎带"
+    ]
+  },
+  {
+    "name": "off campus",
+    "trans": [
+      "校外"
+    ]
+  },
+  {
+    "name": "drop-off",
+    "trans": [
+      "放下"
+    ]
+  },
+  {
+    "name": "pigeons and rats",
+    "trans": [
+      "鸽子和老鼠"
+    ]
+  },
+  {
+    "name": "pharmacy",
+    "trans": [
+      "药店"
+    ]
+  },
+  {
+    "name": "cover the cost",
+    "trans": [
+      "足以支付成本"
+    ]
+  },
+  {
+    "name": "long strap",
+    "trans": [
+      "长带子"
+    ]
+  },
+  {
+    "name": "outbreaks",
+    "trans": [
+      "爆发"
+    ]
+  },
+  {
+    "name": "sculpture garden",
+    "trans": [
+      "雕塑花园"
+    ]
+  },
+  {
+    "name": "ethnics",
+    "trans": [
+      "人种学；少数民族"
+    ]
+  },
+  {
+    "name": "European painting",
+    "trans": [
+      "欧洲画作"
+    ]
+  },
+  {
+    "name": "horseback riding",
+    "trans": [
+      "骑马"
+    ]
+  },
+  {
+    "name": "resilience",
+    "trans": [
+      "弹性，复原能力"
+    ]
+  },
+  {
+    "name": "ecosystem",
+    "trans": [
+      "生态系统"
+    ]
+  },
+  {
+    "name": "clerical",
+    "trans": [
+      "文书的"
+    ]
+  },
+  {
+    "name": "cushion",
+    "trans": [
+      "靠垫"
+    ]
+  },
+  {
+    "name": "southern Scotland",
+    "trans": [
+      "苏格兰南部"
+    ]
+  },
+  {
+    "name": "household appliances",
+    "trans": [
+      "家用设备"
+    ]
+  },
+  {
+    "name": "fertilizer=fertiliser",
+    "trans": [
+      "肥料"
+    ]
+  },
+  {
+    "name": "volume chart",
+    "trans": [
+      "体积图"
+    ]
+  },
+  {
+    "name": "responsible",
+    "trans": [
+      "负责的"
+    ]
+  },
+  {
+    "name": "repellent",
+    "trans": [
+      "排斥的；驱虫剂"
+    ]
+  },
+  {
+    "name": "evolutionary",
+    "trans": [
+      "进化论的"
+    ]
+  },
+  {
+    "name": "vegetarian food",
+    "trans": [
+      "素食"
+    ]
+  },
+  {
+    "name": "regional competition",
+    "trans": [
+      "地区竞赛"
+    ]
+  },
+  {
+    "name": "long stick",
+    "trans": [
+      "长棍子"
+    ]
+  },
+  {
+    "name": "medieval",
+    "trans": [
+      "中世纪的"
+    ]
+  },
+  {
+    "name": "government-funded",
+    "trans": [
+      "政府资助的"
+    ]
+  },
+  {
+    "name": "supplement",
+    "trans": [
+      "补充"
+    ]
+  },
+  {
+    "name": "consensus",
+    "trans": [
+      "共识"
+    ]
+  },
+  {
+    "name": "child-minding",
+    "trans": [
+      "育儿"
+    ]
+  },
+  {
+    "name": "bills and meals",
+    "trans": [
+      "账单和餐"
+    ]
+  },
+  {
+    "name": "old-fashioned exterior",
+    "trans": [
+      "过时的外表"
+    ]
+  },
+  {
+    "name": "long-lasting",
+    "trans": [
+      "持久的"
+    ]
+  },
+  {
+    "name": "fast line ticket",
+    "trans": [
+      "快速通道票"
+    ]
+  },
+  {
+    "name": "melting pot",
+    "trans": [
+      "熔炉"
+    ]
+  },
+  {
+    "name": "university support staff",
+    "trans": [
+      "大学服务人员"
+    ]
+  },
+  {
+    "name": "predators",
+    "trans": [
+      "捕食者"
+    ]
+  },
+  {
+    "name": "calorie",
+    "trans": [
+      "卡路里"
+    ]
+  },
+  {
+    "name": "life expectancy",
+    "trans": [
+      "预期寿命"
+    ]
+  },
+  {
+    "name": "laundry",
+    "trans": [
+      "洗衣"
+    ]
+  },
+  {
+    "name": "home welcome",
+    "trans": [
+      "宾至如归，家庭欢迎"
+    ]
+  },
+  {
+    "name": "charcoal",
+    "trans": [
+      "木炭"
+    ]
+  },
+  {
+    "name": "fantastic",
+    "trans": [
+      "神奇的，极好的"
+    ]
+  },
+  {
+    "name": "monogamous",
+    "trans": [
+      "一夫一妻制的"
+    ]
+  },
+  {
+    "name": "wood of hazel",
+    "trans": [
+      "榛树的木头"
+    ]
+  },
+  {
+    "name": "evaporation=evapouration",
+    "trans": [
+      "蒸发"
+    ]
+  },
+  {
+    "name": "manufacturers",
+    "trans": [
+      "厂商"
+    ]
+  },
+  {
+    "name": "tolerance",
+    "trans": [
+      "容忍"
+    ]
+  },
+  {
+    "name": "centre hall",
+    "trans": [
+      "中央大厅"
+    ]
+  },
+  {
+    "name": "fuel consumption",
+    "trans": [
+      "燃料消耗"
+    ]
+  },
+  {
+    "name": "calligraphy",
+    "trans": [
+      "书法"
+    ]
+  },
+  {
+    "name": "experience skills",
+    "trans": [
+      "经验技能"
+    ]
+  },
+  {
+    "name": "verbalisation=verbalization",
+    "trans": [
+      "冗长"
+    ]
+  },
+  {
+    "name": "specialized course",
+    "trans": [
+      "专业课"
+    ]
+  },
+  {
+    "name": "permanent records",
+    "trans": [
+      "永久记录"
+    ]
+  },
+  {
+    "name": "fibre diet",
+    "trans": [
+      "纤维食物"
+    ]
+  },
+  {
+    "name": "dismissive",
+    "trans": [
+      "轻蔑的"
+    ]
+  },
+  {
+    "name": "water-ride",
+    "trans": [
+      "潮流勇进"
+    ]
+  },
+  {
+    "name": "anatomy",
+    "trans": [
+      "解剖"
+    ]
+  },
+  {
+    "name": "craft fair",
+    "trans": [
+      "手工艺品 集市"
+    ]
+  },
+  {
+    "name": "excavation",
+    "trans": [
+      "挖掘"
+    ]
+  },
+  {
+    "name": "rumour=rumor",
+    "trans": [
+      "谣言"
+    ]
+  },
+  {
+    "name": "tertiary education",
+    "trans": [
+      "高等教育"
+    ]
+  },
+  {
+    "name": "fragile",
+    "trans": [
+      "脆弱的，易碎的"
+    ]
+  },
+  {
+    "name": "engrave",
+    "trans": [
+      "雕刻东西"
+    ]
+  },
+  {
+    "name": "provisional license",
+    "trans": [
+      "临时证件"
+    ]
+  }
+]

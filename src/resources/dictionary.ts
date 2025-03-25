@@ -83,6 +83,17 @@ const internationalExam: DictionaryResource[] = [
     language: 'en',
     languageCategory: 'en',
   },
+  {
+    id: 'ERROR_2025_03_26_07_01_29',
+    name: 'ERROR_2025_03_26_07_01_29',
+    description: '综合测试',
+    category: '国际考试',
+    tags: ['IELTS'],
+    url: '/dicts/ERROR_2025_03_26_07_01_29.json',
+    length: 164,
+    language: 'en',
+    languageCategory: 'en',
+  },
 ]
 
 /**
