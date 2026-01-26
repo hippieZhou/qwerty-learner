@@ -1,13 +1,14 @@
 import DictionaryGroup from './CategoryDicts'
 import DictRequest from './DictRequest'
 import { LanguageTabSwitcher } from './LanguageTabSwitcher'
+import { useErrorBookDict } from './hooks/useErrorBookDict'
 import Layout from '@/components/Layout'
 import { dictionaries } from '@/resources/dictionary'
-import { currentDictInfoAtom } from '@/store'
+import { currentDictInfoAtom, dynamicDictMapAtom } from '@/store'
 import type { Dictionary, LanguageCategoryType } from '@/typings'
 import groupBy, { groupByDictTags } from '@/utils/groupBy'
 import * as ScrollArea from '@radix-ui/react-scroll-area'
-import { useAtomValue } from 'jotai'
+import { useAtom, useAtomValue } from 'jotai'
 import { createContext, useCallback, useEffect, useMemo } from 'react'
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useNavigate } from 'react-router-dom'
@@ -33,9 +34,27 @@ export default function GalleryPage() {
   const [galleryState, setGalleryState] = useImmer<GalleryState>(initialGalleryState)
   const navigate = useNavigate()
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
+  const { errorBookDict } = useErrorBookDict()
+  const [, setDynamicDictMap] = useAtom(dynamicDictMapAtom)
+
+  // Update dynamic dict map when error book dict changes
+  useEffect(() => {
+    if (errorBookDict) {
+      setDynamicDictMap((prev) => ({
+        ...prev,
+        [errorBookDict.id]: errorBookDict,
+      }))
+    }
+  }, [errorBookDict, setDynamicDictMap])
 
   const { groupedByCategoryAndTag } = useMemo(() => {
-    const currentLanguageCategoryDicts = dictionaries.filter((dict) => dict.languageCategory === galleryState.currentLanguageTab)
+    let currentLanguageCategoryDicts = dictionaries.filter((dict) => dict.languageCategory === galleryState.currentLanguageTab)
+    
+    // Add error book dict if it exists and matches current language tab
+    if (errorBookDict && errorBookDict.languageCategory === galleryState.currentLanguageTab) {
+      currentLanguageCategoryDicts = [errorBookDict, ...currentLanguageCategoryDicts]
+    }
+    
     const groupedByCategory = Object.entries(groupBy(currentLanguageCategoryDicts, (dict) => dict.category))
     const groupedByCategoryAndTag = groupedByCategory.map(
       ([category, dicts]) => [category, groupByDictTags(dicts)] as [string, Record<string, Dictionary[]>],
@@ -44,7 +63,7 @@ export default function GalleryPage() {
     return {
       groupedByCategoryAndTag,
     }
-  }, [galleryState.currentLanguageTab])
+  }, [galleryState.currentLanguageTab, errorBookDict])
 
   const onBack = useCallback(() => {
     navigate('/')

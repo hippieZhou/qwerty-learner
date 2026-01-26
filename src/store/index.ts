@@ -16,11 +16,18 @@ import type { ReviewRecord } from '@/utils/db/record'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 
+// Dynamic dictionary map that can include error book collection
+export const dynamicDictMapAtom = atom<Record<string, Dictionary>>({})
+
 export const currentDictIdAtom = atomWithStorage('currentDict', 'ieltsWang3')
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom)
-  let dict = idDictionaryMap[id]
-  // 如果 dict 不存在，则返回 cet4. Typing 中会检查 DictId 是否存在，如果不存在则会重置为 cet4
+  const dynamicDictMap = get(dynamicDictMapAtom)
+  
+  // Check dynamic dict map first (for error book collection)
+  let dict = dynamicDictMap[id] || idDictionaryMap[id]
+  
+  // 如果 dict 不存在，则返回 ieltsWang3. Typing 中会检查 DictId 是否存在，如果不存在则会重置为 ieltsWang3
   if (!dict) {
     dict = idDictionaryMap.ieltsWang3
   }
@@ -103,7 +110,7 @@ export const infoPanelStateAtom = atom<InfoPanelState>({
 })
 
 export const wordDictationConfigAtom = atomForConfig('wordDictationConfig', {
-  isOpen: false,
+  isOpen: true,
   type: 'hideAll' as WordDictationType,
   openBy: 'auto' as WordDictationOpenBy,
 })
