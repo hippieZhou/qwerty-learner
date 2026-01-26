@@ -24,7 +24,7 @@ export const initialState: TypingState = {
   isTyping: false,
   isFinished: false,
   isShowSkip: false,
-  isTransVisible: true,
+  isTransVisible: false, // default is false, so that the translation is not visible by default
   isLoopSingleWord: false,
   isSavingRecord: false,
 }
