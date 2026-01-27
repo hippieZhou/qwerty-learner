@@ -24,7 +24,7 @@ VITE_EUDIC_API_AUTHORIZATION=NIS your_authorization_token_here
 如果不想使用环境变量，也可以在代码中动态设置：
 
 ```typescript
-import { eudicApi } from '@/api'
+import { eudicApi } from '@/eudic'
 
 eudicApi.setAuthorization('NIS xxxx')
 ```
@@ -34,9 +34,9 @@ eudicApi.setAuthorization('NIS xxxx')
 ### 1. 导入 API 客户端
 
 ```typescript
-import { eudicApi } from '@/api'
+import { eudicApi } from '@/eudic'
 // 或者
-import { EudicApiClient, createEudicApiClient } from '@/api'
+import { EudicApiClient, createEudicApiClient } from '@/eudic'
 ```
 
 ### 2. 配置授权信息
@@ -171,7 +171,7 @@ try {
 
 ## 类型定义
 
-所有类型定义都可以从 `@/api` 导入：
+所有类型定义都可以从 `@/eudic` 导入：
 
 ```typescript
 import type {
@@ -181,7 +181,7 @@ import type {
   CreateCategoryParams,
   GetWordsParams,
   // ... 更多类型
-} from '@/api'
+} from '@/eudic'
 ```
 
 ## 支持的语言

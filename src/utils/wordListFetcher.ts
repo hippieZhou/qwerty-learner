@@ -1,6 +1,7 @@
 import type { Word } from '@/typings'
 import { dictionaries } from '@/resources/dictionary'
 import { db } from './db'
+import { ERROR_BOOK_DICT_ID } from '@/pages/Gallery-N/hooks/useErrorBookDict'
 
 export async function wordListFetcher(url: string): Promise<Word[]> {
   // Handle error book collection URL
@@ -14,14 +15,18 @@ export async function wordListFetcher(url: string): Promise<Word[]> {
       .above(0)
       .toArray()
 
-    // Group words by dictionary
+    // Group words by dictionary (skip error-book-collection)
     const wordsByDict = new Map<string, Set<string>>()
     errorRecords.forEach((record) => {
       if (wordNames.includes(record.word)) {
-        if (!wordsByDict.has(record.dict)) {
-          wordsByDict.set(record.dict, new Set())
+        // Skip error-book-collection dict, use original dict instead
+        const dictId = record.dict === ERROR_BOOK_DICT_ID ? null : record.dict
+        if (dictId) {
+          if (!wordsByDict.has(dictId)) {
+            wordsByDict.set(dictId, new Set())
+          }
+          wordsByDict.get(dictId)!.add(record.word)
         }
-        wordsByDict.get(record.dict)!.add(record.word)
       }
     })
 

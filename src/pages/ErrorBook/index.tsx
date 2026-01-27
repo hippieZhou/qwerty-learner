@@ -1,5 +1,5 @@
 import DropdownExport from './DropdownExport'
-import EudicDropdown from './EudicDropdown'
+import SupabaseDropdownExport from './SupabaseDropdownExport'
 import ErrorRow from './ErrorRow'
 import type { ISortType } from './HeadWrongNumber'
 import HeadWrongNumber from './HeadWrongNumber'
@@ -111,7 +111,7 @@ export function ErrorBook() {
               <HeadWrongNumber className="basis-1/12" sortType={sortType} setSortType={setSort} />
               <span className="basis-1/12">词典</span>
               <div className="flex items-center">
-                <EudicDropdown renderRecords={sortedRecords} onDataChange={() => setReload((prev) => !prev)} />
+                <SupabaseDropdownExport renderRecords={sortedRecords} onDataChange={() => setReload((prev) => !prev)} />
                 <DropdownExport renderRecords={sortedRecords} />
               </div>
             </div>

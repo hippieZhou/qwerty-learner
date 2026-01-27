@@ -3,7 +3,7 @@
  * 
  * 使用示例：
  * ```typescript
- * import { eudicApi } from '@/api'
+ * import { eudicApi } from '@/eudic'
  * 
  * // 设置授权令牌
  * eudicApi.setAuthorization('NIS xxxx')
