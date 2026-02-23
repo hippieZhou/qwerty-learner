@@ -173,6 +173,16 @@ const SupabaseDropdownExport: FC<SupabaseDropdownExportProps> = ({ renderRecords
             >
               从云端下载
             </DropdownMenu.Item>
+            <DropdownMenu.Separator className="my-1 h-px bg-indigo-400" />
+            <DropdownMenu.Item
+              className="cursor-pointer rounded px-4 py-2 hover:bg-indigo-400 focus:bg-indigo-600 focus:outline-none"
+              onClick={() => {
+                setDropdownOpen(false)
+                window.open('https://supabase.com', '_blank', 'noopener,noreferrer')
+              }}
+            >
+              打开 Supabase 网站
+            </DropdownMenu.Item>
           </DropdownMenu.Content>
         </DropdownMenu.Root>
       </div>

@@ -49,12 +49,28 @@ const ieltsWangDicts: DictionaryResource[] = [
   },
 ]
 
+// 数字、星期、月份
+const numbersWeekdaysMonthsDicts: DictionaryResource[] = [
+  {
+    id: 'numbersWeekdaysMonths',
+    name: '数字·星期·月份',
+    description: '数字、星期与月份英文词汇',
+    category: '基础词汇',
+    tags: ['数字', '星期', '月份'],
+    url: '/dicts/NUMBERS_WEEKDAYS_MONTHS.json',
+    length: 59,
+    language: 'en',
+    languageCategory: 'en',
+  },
+]
+
 /**
  * Built-in dictionaries in an array.
  * Why arrays? Because it keeps the order across browsers.
  */
 export const dictionaryResources: DictionaryResource[] = [
   ...ieltsWangDicts,
+  ...numbersWeekdaysMonthsDicts,
 ]
 
 export const dictionaries: Dictionary[] = dictionaryResources.map((resource) => ({

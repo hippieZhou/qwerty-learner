@@ -1,0 +1,474 @@
+[
+    {
+        "name": "one",
+        "trans": [
+            "一"
+        ],
+        "usphone": "wʌn",
+        "ukphone": "wʌn"
+    },
+    {
+        "name": "two",
+        "trans": [
+            "二"
+        ],
+        "usphone": "tuː",
+        "ukphone": "tuː"
+    },
+    {
+        "name": "three",
+        "trans": [
+            "三"
+        ],
+        "usphone": "θriː",
+        "ukphone": "θriː"
+    },
+    {
+        "name": "four",
+        "trans": [
+            "四"
+        ],
+        "usphone": "fɔːr",
+        "ukphone": "fɔː"
+    },
+    {
+        "name": "five",
+        "trans": [
+            "五"
+        ],
+        "usphone": "faɪv",
+        "ukphone": "faɪv"
+    },
+    {
+        "name": "six",
+        "trans": [
+            "六"
+        ],
+        "usphone": "sɪks",
+        "ukphone": "sɪks"
+    },
+    {
+        "name": "seven",
+        "trans": [
+            "七"
+        ],
+        "usphone": "ˈsevn",
+        "ukphone": "ˈsevn"
+    },
+    {
+        "name": "eight",
+        "trans": [
+            "八"
+        ],
+        "usphone": "eɪt",
+        "ukphone": "eɪt"
+    },
+    {
+        "name": "nine",
+        "trans": [
+            "九"
+        ],
+        "usphone": "naɪn",
+        "ukphone": "naɪn"
+    },
+    {
+        "name": "ten",
+        "trans": [
+            "十"
+        ],
+        "usphone": "ten",
+        "ukphone": "ten"
+    },
+    {
+        "name": "eleven",
+        "trans": [
+            "十一"
+        ],
+        "usphone": "ɪˈlevn",
+        "ukphone": "ɪˈlevn"
+    },
+    {
+        "name": "twelve",
+        "trans": [
+            "十二"
+        ],
+        "usphone": "twelv",
+        "ukphone": "twelv"
+    },
+    {
+        "name": "thirteen",
+        "trans": [
+            "十三"
+        ],
+        "usphone": "ˌθɜːrˈtiːn",
+        "ukphone": "ˌθɜːˈtiːn"
+    },
+    {
+        "name": "fourteen",
+        "trans": [
+            "十四"
+        ],
+        "usphone": "ˌfɔːrˈtiːn",
+        "ukphone": "ˌfɔːˈtiːn"
+    },
+    {
+        "name": "fifteen",
+        "trans": [
+            "十五"
+        ],
+        "usphone": "ˌfɪfˈtiːn",
+        "ukphone": "ˌfɪfˈtiːn"
+    },
+    {
+        "name": "sixteen",
+        "trans": [
+            "十六"
+        ],
+        "usphone": "ˌsɪksˈtiːn",
+        "ukphone": "ˌsɪksˈtiːn"
+    },
+    {
+        "name": "seventeen",
+        "trans": [
+            "十七"
+        ],
+        "usphone": "ˌsevnˈtiːn",
+        "ukphone": "ˌsevnˈtiːn"
+    },
+    {
+        "name": "eighteen",
+        "trans": [
+            "十八"
+        ],
+        "usphone": "ˌeɪˈtiːn",
+        "ukphone": "ˌeɪˈtiːn"
+    },
+    {
+        "name": "nineteen",
+        "trans": [
+            "十九"
+        ],
+        "usphone": "ˌnaɪnˈtiːn",
+        "ukphone": "ˌnaɪnˈtiːn"
+    },
+    {
+        "name": "twenty",
+        "trans": [
+            "二十"
+        ],
+        "usphone": "ˈtwenti",
+        "ukphone": "ˈtwenti"
+    },
+    {
+        "name": "thirty",
+        "trans": [
+            "三十"
+        ],
+        "usphone": "ˈθɜːrti",
+        "ukphone": "ˈθɜːti"
+    },
+    {
+        "name": "forty",
+        "trans": [
+            "四十"
+        ],
+        "usphone": "ˈfɔːrti",
+        "ukphone": "ˈfɔːti"
+    },
+    {
+        "name": "fifty",
+        "trans": [
+            "五十"
+        ],
+        "usphone": "ˈfɪfti",
+        "ukphone": "ˈfɪfti"
+    },
+    {
+        "name": "sixty",
+        "trans": [
+            "六十"
+        ],
+        "usphone": "ˈsɪksti",
+        "ukphone": "ˈsɪksti"
+    },
+    {
+        "name": "seventy",
+        "trans": [
+            "七十"
+        ],
+        "usphone": "ˈsevnti",
+        "ukphone": "ˈsevnti"
+    },
+    {
+        "name": "eighty",
+        "trans": [
+            "八十"
+        ],
+        "usphone": "ˈeɪti",
+        "ukphone": "ˈeɪti"
+    },
+    {
+        "name": "ninety",
+        "trans": [
+            "九十"
+        ],
+        "usphone": "ˈnaɪnti",
+        "ukphone": "ˈnaɪnti"
+    },
+    {
+        "name": "hundred",
+        "trans": [
+            "百"
+        ],
+        "usphone": "ˈhʌndrəd",
+        "ukphone": "ˈhʌndrəd"
+    },
+    {
+        "name": "thousand",
+        "trans": [
+            "千"
+        ],
+        "usphone": "ˈθaʊznd",
+        "ukphone": "ˈθaʊznd"
+    },
+    {
+        "name": "million",
+        "trans": [
+            "百万"
+        ],
+        "usphone": "ˈmɪljən",
+        "ukphone": "ˈmɪljən"
+    },
+    {
+        "name": "first",
+        "trans": [
+            "第一"
+        ],
+        "usphone": "fɜːrst",
+        "ukphone": "fɜːst"
+    },
+    {
+        "name": "second",
+        "trans": [
+            "第二"
+        ],
+        "usphone": "ˈsekənd",
+        "ukphone": "ˈsekənd"
+    },
+    {
+        "name": "third",
+        "trans": [
+            "第三"
+        ],
+        "usphone": "θɜːrd",
+        "ukphone": "θɜːd"
+    },
+    {
+        "name": "fourth",
+        "trans": [
+            "第四"
+        ],
+        "usphone": "fɔːrθ",
+        "ukphone": "fɔːθ"
+    },
+    {
+        "name": "fifth",
+        "trans": [
+            "第五"
+        ],
+        "usphone": "fɪfθ",
+        "ukphone": "fɪfθ"
+    },
+    {
+        "name": "sixth",
+        "trans": [
+            "第六"
+        ],
+        "usphone": "sɪksθ",
+        "ukphone": "sɪksθ"
+    },
+    {
+        "name": "seventh",
+        "trans": [
+            "第七"
+        ],
+        "usphone": "ˈsevnθ",
+        "ukphone": "ˈsevnθ"
+    },
+    {
+        "name": "eighth",
+        "trans": [
+            "第八"
+        ],
+        "usphone": "eɪtθ",
+        "ukphone": "eɪtθ"
+    },
+    {
+        "name": "ninth",
+        "trans": [
+            "第九"
+        ],
+        "usphone": "naɪnθ",
+        "ukphone": "naɪnθ"
+    },
+    {
+        "name": "tenth",
+        "trans": [
+            "第十"
+        ],
+        "usphone": "tenθ",
+        "ukphone": "tenθ"
+    },
+    {
+        "name": "Monday",
+        "trans": [
+            "星期一"
+        ],
+        "usphone": "ˈmʌndeɪ",
+        "ukphone": "ˈmʌndeɪ"
+    },
+    {
+        "name": "Tuesday",
+        "trans": [
+            "星期二"
+        ],
+        "usphone": "ˈtuːzdeɪ",
+        "ukphone": "ˈtjuːzdeɪ"
+    },
+    {
+        "name": "Wednesday",
+        "trans": [
+            "星期三"
+        ],
+        "usphone": "ˈwenzdeɪ",
+        "ukphone": "ˈwenzdeɪ"
+    },
+    {
+        "name": "Thursday",
+        "trans": [
+            "星期四"
+        ],
+        "usphone": "ˈθɜːrzdeɪ",
+        "ukphone": "ˈθɜːzdeɪ"
+    },
+    {
+        "name": "Friday",
+        "trans": [
+            "星期五"
+        ],
+        "usphone": "ˈfraɪdeɪ",
+        "ukphone": "ˈfraɪdeɪ"
+    },
+    {
+        "name": "Saturday",
+        "trans": [
+            "星期六"
+        ],
+        "usphone": "ˈsætərdeɪ",
+        "ukphone": "ˈsætədeɪ"
+    },
+    {
+        "name": "Sunday",
+        "trans": [
+            "星期日"
+        ],
+        "usphone": "ˈsʌndeɪ",
+        "ukphone": "ˈsʌndeɪ"
+    },
+    {
+        "name": "January",
+        "trans": [
+            "一月"
+        ],
+        "usphone": "ˈdʒænjueri",
+        "ukphone": "ˈdʒænjuəri"
+    },
+    {
+        "name": "February",
+        "trans": [
+            "二月"
+        ],
+        "usphone": "ˈfebrueri",
+        "ukphone": "ˈfebruəri"
+    },
+    {
+        "name": "March",
+        "trans": [
+            "三月"
+        ],
+        "usphone": "mɑːrtʃ",
+        "ukphone": "mɑːtʃ"
+    },
+    {
+        "name": "April",
+        "trans": [
+            "四月"
+        ],
+        "usphone": "ˈeɪprəl",
+        "ukphone": "ˈeɪprəl"
+    },
+    {
+        "name": "May",
+        "trans": [
+            "五月"
+        ],
+        "usphone": "meɪ",
+        "ukphone": "meɪ"
+    },
+    {
+        "name": "June",
+        "trans": [
+            "六月"
+        ],
+        "usphone": "dʒuːn",
+        "ukphone": "dʒuːn"
+    },
+    {
+        "name": "July",
+        "trans": [
+            "七月"
+        ],
+        "usphone": "dʒuˈlaɪ",
+        "ukphone": "dʒuˈlaɪ"
+    },
+    {
+        "name": "August",
+        "trans": [
+            "八月"
+        ],
+        "usphone": "ˈɔːɡəst",
+        "ukphone": "ˈɔːɡəst"
+    },
+    {
+        "name": "September",
+        "trans": [
+            "九月"
+        ],
+        "usphone": "sepˈtembər",
+        "ukphone": "sepˈtembə"
+    },
+    {
+        "name": "October",
+        "trans": [
+            "十月"
+        ],
+        "usphone": "ɑːkˈtoʊbər",
+        "ukphone": "ɒkˈtəʊbə"
+    },
+    {
+        "name": "November",
+        "trans": [
+            "十一月"
+        ],
+        "usphone": "noʊˈvembər",
+        "ukphone": "nəʊˈvembə"
+    },
+    {
+        "name": "December",
+        "trans": [
+            "十二月"
+        ],
+        "usphone": "dɪˈsembər",
+        "ukphone": "dɪˈsembə"
+    }
+]
